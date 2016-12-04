@@ -21,3 +21,4 @@ a) [Android] You need to register new project on Firebase (yes, we are using GCM
 b) [iOS] You need to create explicit app id on apple dev portal (wildcard app id will not work). You need to enable push notifications for that ID. Once enabled, you will see that few buttons appear there to add sertificates. You need to create dedicated sertificates to be able to send push notifications. Note, that certificate can be for sandboxed environment and production (normally, you use the former during testing).
 11) Pay attention to the android app manifest and what permissions are there
 12) Current simple iOS demo does not requires specific permissions. However, there is also a possibility to perform some background tasks in response to notification. You have to set Remote notification background task flag in app plist for this.
+13) More about structure of Android notifications: https://developers.google.com/cloud-messaging/http-server-ref
